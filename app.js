@@ -136,7 +136,6 @@ function footer() {
       <div class="footer-grid">
         <div>
           <img class="footer-logo" src="design-system/logos/logo-stacked-white.svg" alt="Dra. Fernanda Guedes">
-          <p style="max-width:320px">Cirurgiã-dentista com atuação em harmonização orofacial. Procedimentos estéticos com planejamento individual e foco em resultados naturais.</p>
           <div class="socials">
             <a href="https://instagram.com/${CONTATO.instagram}" target="_blank" rel="noopener" aria-label="Instagram">${ICON.ig}</a>
             <a href="${waLink()}" target="_blank" rel="noopener" aria-label="WhatsApp">${ICON.wa}</a>
