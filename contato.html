@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Contato | Dra. Fernanda Guedes</title>
+  <meta name="description" content="Agende sua avaliação com a Dra. Fernanda Guedes pelo WhatsApp (11) 99470-3531. Atendimento no Paraíso, São Paulo.">
+  <link rel="icon" href="design-system/logos/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="design-system/tokens.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contato">
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumbs"><a href="index.html">Início</a> / Contato</p>
+    <h1 class="words">Agende a sua <span class="script">avaliação</span></h1>
+    <p class="lead">Me chame no WhatsApp ou preencha o formulário. Eu respondo pessoalmente.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div class="reveal">
+      <ul class="info-list">
+        <li><span class="info-icon" data-icon="wa"></span><span><strong>WhatsApp</strong><a data-wa>(11) 99470-3531</a></span></li>
+        <li><span class="info-icon" data-icon="ig"></span><span><strong>Instagram</strong><a href="https://instagram.com/dra.fernanda.guedes" target="_blank" rel="noopener">@dra.fernanda.guedes</a></span></li>
+        <!-- CONFIRM: endereco exato da sala alugada -->
+        <li><span class="info-icon" data-icon="pin"></span><span><strong>Local</strong>Paraíso, São Paulo, SP<br>Próximo ao metrô Paraíso. Endereço completo enviado no agendamento.</span></li>
+        <!-- CONFIRM: dias e horarios de atendimento -->
+        <li><span class="info-icon" data-icon="clock"></span><span><strong>Atendimento</strong>Com hora marcada</span></li>
+      </ul>
+      <iframe class="map" title="Mapa da região do Paraíso, São Paulo" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Esta%C3%A7%C3%A3o+Para%C3%ADso+Metr%C3%B4+S%C3%A3o+Paulo&z=15&output=embed"></iframe>
+    </div>
+
+    <form class="form reveal d1" id="form-contato">
+      <h3>Envie a sua mensagem</h3>
+      <div class="form-row two">
+        <div><label for="f-nome">Nome</label><input id="f-nome" name="nome" required autocomplete="name"></div>
+        <div><label for="f-periodo">Melhor período</label>
+          <select id="f-periodo" name="periodo"><option value="">Tanto faz</option><option>Manhã</option><option>Tarde</option><option>Noite</option></select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div><label for="f-proc">Procedimento de interesse</label>
+          <select id="f-proc" name="proc"><option value="">Ainda não sei, quero uma avaliação</option></select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div><label for="f-msg">Mensagem (opcional)</label><textarea id="f-msg" name="msg" placeholder="Conte o que você gostaria de melhorar"></textarea></div>
+      </div>
+      <button class="btn btn-primary" type="submit" data-icon="wa">Enviar pelo WhatsApp</button>
+      <small>Ao enviar, o WhatsApp abre com a sua mensagem pronta. Nenhum dado fica salvo no site.</small>
+    </form>
+  </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
