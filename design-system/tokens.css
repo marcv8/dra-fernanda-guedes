@@ -1,0 +1,62 @@
+/* Dra. Fernanda Guedes — variáveis do design system (gerado de tokens.json) */
+@font-face { font-family: "Cormorant Garamond"; src: url("fonts/CormorantGaramond-Variable.woff2") format("woff2"); font-weight: 300 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("fonts/Jost-Variable.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Allura"; src: url("fonts/Allura-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+:root, [data-theme="light"] {
+  --surface: #fbf6f3;
+  --surface-blush: #f4e3dc;
+  --surface-raised: #ffffff;
+  --rose-soft: #ead0c7;
+  --rose: #a96b60;
+  --rose-deep: #8e4f48;
+  --on-rose-deep: #ffffff;
+  --champagne: #c9a978;
+  --ink: #3a2226;
+  --ink-muted: #6e5456;
+  --line: #e6d2ca;
+  --whatsapp: #1f7a4d;
+  --shadow-soft: 0 10px 30px -12px rgba(142, 79, 72, 0.25);
+}
+[data-theme="dark"] {
+  --surface: #1e1517;
+  --surface-blush: #2a1d20;
+  --surface-raised: #2f2225;
+  --rose-soft: #4a2f30;
+  --rose: #e0a597;
+  --rose-deep: #e9b8ab;
+  --on-rose-deep: #2a1518;
+  --champagne: #d7b98a;
+  --ink: #f5e9e4;
+  --ink-muted: #c9b2ae;
+  --line: #4a3639;
+  --whatsapp: #5fd39a;
+  --shadow-soft: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --radius-sm: 6px;
+  --radius-md: 16px;
+  --radius-arch: 999px;
+  --radius-pill: 999px;
+  --font-display: "Cormorant Garamond", "Cormorant", Georgia, serif;
+  --font-sans: "Jost", "Futura", "Century Gothic", system-ui, sans-serif;
+  --font-script: "Allura", "Great Vibes", cursive;
+}
+.display { font-family: var(--font-display); font-size: 64px; line-height: 68px; font-weight: 400; letter-spacing: -0.01em; }
+.h1 { font-family: var(--font-display); font-size: 52px; line-height: 58px; font-weight: 400; letter-spacing: -0.005em; }
+.h2 { font-family: var(--font-display); font-size: 40px; line-height: 46px; font-weight: 400; }
+.h3 { font-family: var(--font-display); font-size: 26px; line-height: 32px; font-weight: 500; }
+.script-accent { font-family: var(--font-script); font-size: 1.25em; line-height: 1; font-weight: 400; }
+.lead { font-family: var(--font-sans); font-size: 19px; line-height: 30px; font-weight: 300; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 26px; font-weight: 400; }
+.small { font-family: var(--font-sans); font-size: 13px; line-height: 20px; font-weight: 400; }
+.eyebrow { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.22em; }
+.button { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 500; letter-spacing: 0.08em; }
